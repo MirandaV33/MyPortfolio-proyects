@@ -197,6 +197,7 @@ for snr_db in SNRs:
     tabla.set_fontsize(10)
     tabla.scale(1.2, 1.2)
     
+    plt.savefig("Table of bias and variance", dpi=300)
     plt.show()
     
     # Set the title of the plot
@@ -217,6 +218,9 @@ for snr_db in SNRs:
     plt.grid(True)
     plt.legend()
 
+    plt.savefig("histograma de frecuencia ", dpi=300)
+    plt.show()
+    
     # Second histogram: Estimated frequencies with zero padding
     plt.figure()
     plt.hist(omega1_est_pp, bins=30, color='red', alpha=0.5, label="Unwindowed estimator")
@@ -228,6 +232,9 @@ for snr_db in SNRs:
     plt.ylabel("Number of occurrences")
     plt.grid(True)
     plt.legend()
+    
+    plt.savefig("histograma de frecuencia 2", dpi=300)
+    plt.show()
 
     # Third histogram: Estimated amplitudes
     plt.figure()
@@ -241,6 +248,9 @@ for snr_db in SNRs:
     plt.xlabel("Estimated amplitude")
     plt.ylabel("Number of occurrences")
     plt.grid(True)
+    
+    plt.savefig("histograma de amplitud", dpi=300)
+    plt.show()
 
     # Spectral representation plot
     plt.figure()
@@ -251,7 +261,8 @@ for snr_db in SNRs:
     plt.xlabel('Frequency [Hz]')
     axes_hdl = plt.gca()
     axes_hdl.legend()
-
+    
+    plt.savefig("Espectro", dpi=300)
     plt.show()
 
 #%% BONUS
