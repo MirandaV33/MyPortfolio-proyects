@@ -1,1 +1,1 @@
-"#Cosmetic Education" 
+""
