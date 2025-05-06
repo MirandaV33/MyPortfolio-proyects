@@ -37,11 +37,12 @@ I’m currently offering services such as:
 ## Contact & Freelance Work
 
 If you'd like to collaborate, you can find me on Fiverr & UpWork:  
-**[fiverr.com/mirandav_](https://www.fiverr.com/mirandav_)**
-**[View my Upwork profile](https://www.upwork.com/freelancers/~01b84a13367101b8be)**
+**[Fiverr: mirandav_](https://www.fiverr.com/mirandav_)**
+
+**[Upwork profile: Miranda V.](https://www.upwork.com/freelancers/~01b84a13367101b8be)**
 
 Or feel free to reach out for professional inquiries via mail: 
-**[email me](mailto:mimiviceconte@gmail.com)**
+**[mimiviceconte@gmail.com](mailto:mimiviceconte@gmail.com)**
 
 
 ---
