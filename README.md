@@ -1,4 +1,4 @@
-# 💼 Biomedical Engineering Portfolio
+# Biomedical Engineering Portfolio
 
 Welcome to my professional portfolio! Here you'll find a curated collection of my projects & certifications. 
 
@@ -6,12 +6,12 @@ Welcome to my professional portfolio! Here you'll find a curated collection of m
 
 ## Repository Structure
 
-- **📂 Certifications/**  
+- **Certifications/**  
   Includes scanned certificates and credentials from courses, workshops, and training in areas such as:
   - Clinical Trial Monitoring
   - Dermathocosmetic Aethetics 
 
-- **📂 Projects/**  
+- **Projects/**  
   
   - **Educational Content**  
     Slide decks, quizzes, study guides, and science-based presentations tailored to cosmetology, biology, and biomedical topics.
@@ -37,10 +37,12 @@ I’m currently offering services such as:
 ## Contact & Freelance Work
 
 If you'd like to collaborate, you can find me on Fiverr & UpWork:  
-** [https://www.fiverr.com/yourusername](https://www.fiverr.com/users/mirandav_/seller_dashboard))**
-*(https://www.upwork.com/freelancers/~01b84a13367101b8be)**
+**[fiverr.com/mirandav_](https://www.fiverr.com/mirandav_)**
+**[View my Upwork profile](https://www.upwork.com/freelancers/~01b84a13367101b8be)**
 
-Or feel free to reach out for professional inquiries via GitHub.
+Or feel free to reach out for professional inquiries via mail: 
+**[email me](mailto:mimiviceconte@gmail.com)**
+
 
 ---
 
