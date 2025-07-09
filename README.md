@@ -13,11 +13,24 @@ Welcome to my professional portfolio! Here you'll find a curated collection of m
 
 - **Projects/**  
   
-  - **Educational Content**  
-    Slide decks, quizzes, study guides, and science-based presentations tailored to cosmetology, biology, and biomedical topics.
+**Chemoinformatics**
+- Python scripts and Jupyter notebooks that analyze bioactive compounds from ChEMBL and PubChem:
+- Property-based filtering
+- SMILES processing
+- Molecular fingerprints and clustering
+- Basic ML models for compound prediction
+  
+**Biomedical Signal Processing**
+- Signal analysis pipelines for ECG and EEG:
+- Spectral estimation (Welch, periodogram)
+- Digital filtering
+- STFT and CWT
+- Implemented in Python using SciPy, NumPy, Matplotlib
 
-  - **Spectral Estimation Project**  
-    A signal processing project using Python and biomedical signals to perform spectral analysis and visualization.
+**Educational & Visual Learning Materials**
+- Visual summaries, infographics, and concept maps created for:
+- Cosmetology & Dermatology education
+- Tools used: Canva, tablet drawing (Wacom), PowerPoint
 
 ---
 
@@ -26,12 +39,9 @@ Welcome to my professional portfolio! Here you'll find a curated collection of m
 I’m a biomedical engineering student with additional training in cosmetology, clinical research regulation, and technical writing. I specialize in translating complex scientific topics into engaging and accurate content.
 
 I’m currently offering services such as:
-- Educational content creation
-- Clinical research documentation
-- Technical writing and code documentation
-- GitHub portfolio organization
-- Python-based signal processing and task automation
-
+- Python-based biomedical data analysis (signals or molecular)
+- Technical summaries and visual learning materials
+- Regulatory-oriented research & documentation
 ---
 
 ## Contact & Freelance Work
