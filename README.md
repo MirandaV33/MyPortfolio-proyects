@@ -36,12 +36,16 @@ Welcome to my professional portfolio! Here you'll find a curated collection of m
 
 ## About Me
 
-I’m a biomedical engineering student with additional training in cosmetology, clinical research regulation, and technical writing. I specialize in translating complex scientific topics into engaging and accurate content.
+I'm Miranda Viceconte, a biomedical engineering student with a passion for computational biology, data analysis, and regulatory science.
 
-I’m currently offering services such as:
-- Python-based biomedical data analysis (signals or molecular)
-- Technical summaries and visual learning materials
-- Regulatory-oriented research & documentation
+Alongside my core studies, I’ve trained in:
+
+- Python for molecular and biomedical data analysis
+- Chemoinformatics & Machine Learning for drug development
+- Clinical research regulation (GCP, ANMAT, GMP)
+- Cosmetology and skin health, with teaching experience
+
+I love integrating science, code, and communication—whether through visual learning tools, signal analysis, or data-driven projects.
 ---
 
 ## Contact & Freelance Work
