@@ -1,0 +1,71 @@
+run_type = "staged_learning"
+device = "cpu"
+tb_logdir = "tb_logs"
+json_out_config = "gen_mols.json"
+
+[parameters]
+summary_csv_prefix = "gen_mols"
+use_checkpoint = false
+purge_memories = false
+
+prior_file = "../priors/mol2mol_medium_similarity.prior"
+agent_file = "../priors/mol2mol_medium_similarity.prior"
+smiles_file = "despigment_actives.smi"  
+sample_strategy = "multinomial"
+distance_threshold = 100
+
+batch_size = 8
+unique_sequences = true
+randomize_smiles = true
+tb_isim = false
+
+[learning_strategy]
+type = "dap"
+sigma = 80
+rate = 0.0001
+
+[diversity_filter]
+type = "IdenticalMurckoScaffold"
+bucket_size = 25
+minscore = 0.5
+minsimilarity = 0.5
+penalty_multiplier = 0.5
+
+[[stage]]
+chkpt_file = "mol2mol_stage1.chkpt"
+
+termination = "simple"
+max_score = 0.8
+min_steps = 10
+max_steps = 100
+
+[stage.scoring]
+type = "geometric_mean"
+
+[[stage.scoring.component]]
+[stage.scoring.component.TanimotoDistance]
+
+[[stage.scoring.component.TanimotoDistance.endpoint]]
+name = "Tanimoto vs seeds"
+weight = 0.7
+params.smiles = [
+  "Oc1ccccc1O",
+  "Oc1ccc(O)cc1",
+  "Oc1cccc(O)c1",
+  "O=C(O)c1ccccc1O"
+]
+params.radius = 2
+params.use_counts = true
+params.use_features = false
+
+[[stage.scoring.component]]
+[stage.scoring.component.QED]
+[[stage.scoring.component.QED.endpoint]]
+name = "QED"
+weight = 0.6
+
+[[stage.scoring.component]]
+[stage.scoring.component.SAScore]
+[[stage.scoring.component.SAScore.endpoint]]
+name = "SA score"
+weight = 0.3
